@@ -108,61 +108,43 @@ as long as the test requesting them can see all fixtures involved.<\p>
 <p>Fixtures are defined using the @pytest.fixture decorator. Pytest has useful built-in fixtures, 
 listed down below for reference:
 
-<p>capfd:<\p>
-Capture, as text, output to file descriptors 1 and 2.<\p>
+<p>capfd: Capture, as text, output to file descriptors 1 and 2.<\p>
 
-<p>capfdbinary:<\p>
-Capture, as bytes, output to file descriptors 1 and 2.<\p>
+<p>capfdbinary: Capture, as bytes, output to file descriptors 1 and 2.<\p>
 
-<p>caplog:<\p>
-Control logging and access log entries.<\p>
+<p>caplog: Control logging and access log entries.<\p>
 
-<p>capsys:<\p>
-Capture, as text, output to sys.stdout and sys.stderr.<\p>
+<p>capsys: Capture, as text, output to sys.stdout and sys.stderr.<\p>
 
-<p>capsysbinary:<\p>
-Capture, as bytes, output to sys.stdout and sys.stderr.<\p>
+<p>capsysbinary: Capture, as bytes, output to sys.stdout and sys.stderr.<\p>
 
-<p>cache:<\p>
-Store and retrieve values across pytest runs.<\p>
+<p>cache: Store and retrieve values across pytest runs.<\p>
 
-<p>doctest_namespace:<\p>
-Provide a dict injected into the docstests namespace.<\p>
+<p>doctest_namespace: Provide a dict injected into the docstests namespace.<\p>
 
-<p>monkeypatch:<\p>
-Temporarily modify classes, functions, dictionaries, os.environ, and other objects.<\p>
+<p>monkeypatch: Temporarily modify classes, functions, dictionaries, os.environ, and other objects.<\p>
 
-<p>pytestconfig:<\p>
-Access to configuration values, pluginmanager and plugin hooks.<\p>
+<p>pytestconfig: Access to configuration values, pluginmanager and plugin hooks.<\p>
 
-<p>record_property:<\p>
-Add extra properties to the test.<\p>
+<p>record_property: Add extra properties to the test.<\p>
 
-<p>record_testsuite_property:<\p>
-Add extra properties to the test suite.<\p>
+<p>record_testsuite_property: Add extra properties to the test suite.<\p>
 
-<p>recwarn:<\p>
-Record warnings emitted by test functions.<\p>
+<p>recwarn: Record warnings emitted by test functions.<\p>
 
-<p>request:<\p>
-Provide information on the executing test function.<\p>
+<p>request: Provide information on the executing test function.<\p>
 
-<p>testdir:<\p>
-Provide a temporary test directory to aid in running, and testing, pytest plugins.<\p>
+<p>testdir: Provide a temporary test directory to aid in running, and testing, pytest plugins.<\p>
 
-<p>tmp_path:<\p>
-Provide a pathlib.Path object to a temporary directory which is unique to each test function.<\p>
+<p>tmp_path: Provide a pathlib.Path object to a temporary directory which is unique to each test function.<\p>
 
-<p>tmp_path_factory:<\p>
-Make session-scoped temporary directories and return pathlib.Path objects.<\p>
+<p>tmp_path_factory: Make session-scoped temporary directories and return pathlib.Path objects.<\p>
 
-<p>tmpdir:<\p>
-Provide a py.path.local object to a temporary directory which is unique to each test function; replaced by tmp_path.<\p>
+<p>tmpdir: Provide a py.path.local object to a temporary directory which is unique to each test function; replaced by tmp_path.<\p>
 
-<p>tmpdir_factory:<\p>
-Make session-scoped temporary directories and return py.path.local objects; replaced by tmp_path_factory.<\p>
+<p>tmpdir_factory: Make session-scoped temporary directories and return py.path.local objects; replaced by tmp_path_factory.<\p>
 
-References:<\p>
+## References:
 
 MESZAROS, Gerard. xUnit Test Patterns. Addison-Wesley, 2007.<\p>
 <p>BECK, Kent. Test Driven-Development By Example. Addison-Wesley, 2000.<\p>
