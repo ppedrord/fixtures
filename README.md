@@ -121,7 +121,7 @@ as long as the test requesting them can see all fixtures involved.<\p>
 
 ## Built-in Fixtures:
 
-<p>Fixtures are defined using the @pytest.fixture decorator. Pytest has useful built-in fixtures, 
+<p>Fixtures are defined using the <strong>@pytest.fixture</strong> decorator. Pytest has useful built-in fixtures, 
 listed down below for reference:
 
 <p><strong>capfd</strong>: Capture, as text, output to file descriptors 1 and 2.
