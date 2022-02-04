@@ -90,60 +90,60 @@ autouse fixture is defined in.A fixture can also request any other fixture, no m
 as long as the test requesting them can see all fixtures involved.
 
 Fixtures are defined using the @pytest.fixture decorator. Pytest has useful built-in fixtures, 
-listed down bellow for reference:
+listed down below for reference:
 
-capfd
+capfd:
 Capture, as text, output to file descriptors 1 and 2.
 
-capfdbinary
+capfdbinary:
 Capture, as bytes, output to file descriptors 1 and 2.
 
-caplog
+caplog:
 Control logging and access log entries.
 
-capsys
+capsys:
 Capture, as text, output to sys.stdout and sys.stderr.
 
-capsysbinary
+capsysbinary:
 Capture, as bytes, output to sys.stdout and sys.stderr.
 
-cache
+cache:
 Store and retrieve values across pytest runs.
 
-doctest_namespace
+doctest_namespace:
 Provide a dict injected into the docstests namespace.
 
-monkeypatch
+monkeypatch:
 Temporarily modify classes, functions, dictionaries, os.environ, and other objects.
 
-pytestconfig
+pytestconfig:
 Access to configuration values, pluginmanager and plugin hooks.
 
-record_property
+record_property:
 Add extra properties to the test.
 
-record_testsuite_property
+record_testsuite_property:
 Add extra properties to the test suite.
 
-recwarn
+recwarn:
 Record warnings emitted by test functions.
 
-request
+request:
 Provide information on the executing test function.
 
-testdir
+testdir:
 Provide a temporary test directory to aid in running, and testing, pytest plugins.
 
-tmp_path
+tmp_path:
 Provide a pathlib.Path object to a temporary directory which is unique to each test function.
 
-tmp_path_factory
+tmp_path_factory:
 Make session-scoped temporary directories and return pathlib.Path objects.
 
-tmpdir
+tmpdir:
 Provide a py.path.local object to a temporary directory which is unique to each test function; replaced by tmp_path.
 
-tmpdir_factory
+tmpdir_factory:
 Make session-scoped temporary directories and return py.path.local objects; replaced by tmp_path_factory.
 
 References:
