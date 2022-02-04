@@ -162,7 +162,7 @@ listed down below for reference:
 
 ## References:
 
-<p>MESZAROS, Gerard. xUnit Test Patterns. Addison-Wesley, 2007.<br>
-<p>BECK, Kent. Test Driven-Development By Example. Addison-Wesley, 2000.<br>
-<p>pytest fixtures: explicit, modular, scalable. pytest, Full pytest Documentarion, 2015. Available in: 
+<p><strong>MESZAROS, Gerard</strong>. <em>xUnit Test Patterns</em>. Addison-Wesley, 2007.<br>
+<p><strong>BECK, Kent</strong>. <em>Test Driven-Development By Example</em>. Addison-Wesley, 2000.<br>
+<p><strong>pytest fixtures: explicit, modular, scalable</strong>. <em>pytest, Full pytest Documentation</em>, 2015. Available in: 
 <https://docs.pytest.org/en/6.2.x/fixture.html#what-fixtures-are>. Accessed on: February 2, 2022
