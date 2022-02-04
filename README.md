@@ -1,32 +1,31 @@
 
 # fixtures
 
-Before we start to talk about fixtures, we need to understand a little more about tests.
-<\p> 
+Before we start to talk about fixtures, we need to understand a little more about tests.<br>
 
 ## Test Structure 3A:
 
-Kent Beck, in Test Driven-Development By Example, on page 99 said that every test consists of, at least, 3 steps:
+Kent Beck, in Test Driven-Development By Example, on page 99 said that every test consists of, at least, 3 steps:<br>
 
-<p>-Arrange: is where we create objects, provide data and prepare everything for we use to exercise our method;
+<p><strong>-Arrange</strong>: is where we create objects, provide data and prepare everything for we use to exercise our method;
 
-<p>-Act:  is where we interact with the SUT (System Under Test);
+<p>-<strong>Act</strong>:  is where we interact with the SUT (System Under Test);
 
-<p>-Assert: is where we look the results given after the Act step and check if it looks how we'd expected.
+<p>-<strong>Assert</strong>: is where we look the results given after the Act step and check if it looks how we'd expected.</p>
 
 
-All these steps can be in a single line of code, and Kent Beck says that it is called One Step Test.
+<p>All these steps can be in a single line of code, and Kent Beck says that it is called One Step Test.<br>
 
-But, create tests can result in a redundant code, causing problems like performance drop. 
+But, create tests can result in a redundant code, causing problems like performance drop.<br> 
 
-"If we want to remove duplication from our model code, do we want to remove it
-also from our test code? Maybe." Kent Beck, Test Driven-Development By Example, pg. 163
+<p><em>"If we want to remove duplication from our model code, do we want to remove it
+also from our test code? Maybe."</em> Kent Beck, Test Driven-Development By Example, pg. 163<br>
 
 From that idea, we can understand for what we use fixtures.
 
 ## What are fixtures?
 
-A test fixture is the fixed state that exists at the start of a test. A test fixture ensures
+A <strong>test fixture</strong> is the fixed state that exists at the start of a test. A test fixture ensures
 that a test is repeatable—every time a test is run it starts in the same state so it
 should produce the same results. A fixture may be set up before the test runs and
 torn down after it has finished.
